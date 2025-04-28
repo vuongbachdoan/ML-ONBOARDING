@@ -2,7 +2,7 @@
 
 import { useState, useEffect, useRef } from 'react';
 import { Box, Header, Button, SpaceBetween } from '@cloudscape-design/components';
-import { FaMicrophone, FaRobot } from 'react-icons/fa';
+import { FaRobot } from 'react-icons/fa';
 
 const questions = Array.from({ length: 10 }, (_, i) => `Question ${i + 1}: Please answer.`);
 
